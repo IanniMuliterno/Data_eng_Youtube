@@ -20,6 +20,9 @@ This project aims to securely manage, streamline, and perform analysis on the st
 # Dataset Used
 This Kaggle dataset contains statistics (CSV files) on daily popular YouTube videos over the course of many months. There are up to 200 trending videos published every day for many locations. The data for each region is in its own file. The video title, channel title, publication time, tags, views, likes and dislikes, description, and comment count are among the items included in the data. A category_id field, which differs by area, is also included in the JSON file linked to the region.
 
+# Architecture Diagram
+![](https://github.com/IanniMuliterno/Data_eng_Youtube/blob/main/architecture.jpeg)
+
 # Step by step
  1. create a AWS and IAM acc (understand AWS credentials and permissions)
  2. install and configure AWS CLI
