@@ -31,4 +31,8 @@ This Kaggle dataset contains statistics (CSV files) on daily popular YouTube vid
  5. set glue catalog and build a crawler (needs its own role with s3fullaccess and glueservicerole)
  6. tidying with lambda function (Uses python, needs its own role, demands a layer to run awswrangler)
  7. Exploring the data with Athena (SQL)
- 8. ... ongoing
+ 8. changing the schema of the raw_statistics before turning it to parquet, via pyspark glue job
+ 9. using a crawler to make it readble via athena
+ 10. adding a trigger to the lambda function to treat data everytime a new json is uploaded
+ 11. creating a pipeline to deliver proper analytical dataset
+ 12. brief analysis with quicksight 
