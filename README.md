@@ -26,13 +26,13 @@ This Kaggle dataset contains statistics (CSV files) on daily popular YouTube vid
 # Step by step
  1. create a AWS and IAM acc (understand AWS credentials and permissions)
  2. install and configure AWS CLI
- 3. create bucket
- 4. upload data
- 5. set glue catalog and build a crawler (needs its own role with s3fullaccess and glueservicerole)
+ 3. create bucket to receive raw data
+ 4. upload data using AWS CLI
+ 5. set glue catalog and build a crawler, doing so, we're able to explore the raw data in athena (needs its own role with s3fullaccess and glueservicerole) 
  6. tidying with lambda function (Uses python, needs its own role, demands a layer to run awswrangler)
  7. Exploring the data with Athena (SQL)
- 8. changing the schema of the raw_statistics before turning it to parquet, via pyspark glue job
+ 8. setting a pyspark job to adjust the schema of the raw_statistics before turning it to parquet, then load to the cleased database and bucket
  9. using a crawler to make it readble via athena
  10. adding a trigger to the lambda function to treat data everytime a new json is uploaded
- 11. creating a pipeline to deliver proper analytical dataset
+ 11. creating a pipeline to deliver proper analytical dataset ( using its own bucket)
  12. brief analysis with quicksight 
