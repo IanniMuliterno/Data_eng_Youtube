@@ -1,13 +1,13 @@
 # Data Engineering with AWS 
 
-This project aims to securely manage, streamline, and perform analysis on the structured and semi-structured YouTube videos data based on the video categories and the trending metrics.
+This project aims to securely manage, streamline, and perform analysis on the structured and semi-structured YouTube videos data based on the video categories and the trending metrics. 
 
 # Project Goals
 - Data Ingestion — Build a mechanism to ingest data from different sources
 - ETL System — get data in raw format, transforming this data into the proper format
 - Data lake — Centralize multiple source data
 - Scalability — As the size of our data increases, we need to make sure our system scales with it
-- Reporting — Build a dashboard
+- Reporting — Build a dashboard, if you don't have a QuickSight acc, you can check the picture I saved in this repository, but if you have an acc, you can check the dashboard [here](https://us-east-1.quicksight.aws.amazon.com/sn/dashboards/83e421e7-3e68-4ec4-98b1-c2c027e5ba8d/views/6d845d0e-3de0-4657-8fed-cd8cca34ee2e?directory_alias=ianm)
 
 # Services used
 - Amazon S3: Amazon S3 is an object storage service that provides manufacturing scalability, data availability, security, and performance.
