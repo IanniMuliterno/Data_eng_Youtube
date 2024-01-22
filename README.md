@@ -23,6 +23,9 @@ This Kaggle dataset contains statistics (CSV files) on daily popular YouTube vid
 # Architecture Diagram
 ![](https://github.com/IanniMuliterno/Data_eng_Youtube/blob/main/architecture.jpeg)
 
+# Quicksight IMG
+![](https://github.com/IanniMuliterno/Data_eng_Youtube/blob/main/DE_YT_quicksight.png)
+
 # Step by step
  1. create a AWS and IAM acc (understand AWS credentials and permissions)
  2. install and configure AWS CLI
